@@ -1,0 +1,46 @@
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    header { border-bottom: 1px solid #919eab; }
+.text-left { padding: 0 !important; border-left: 1px solid #919eab;}
+.text-left-part { padding: 10px; }
+.navbar-header {color: #fff;}
+.glyphicon { color: #000; }
+.nav-search { position: relative; }
+/*.nav-search fa { position: absolute;  top: 30px; left: 30px;}*/
+.nav-search input { width: 60%; display: block; border-radius: 10px; margin: 20px ; padding: 5px 10px; }
+.navbar .fa {color: #000; margin: 20px; position: none}
+.logo-title {color: #008084; font-size: 36px; padding: 0 20px; margin: 20px; display: block;}
+.sidenav a { text-align: left; color: #000; font-size: 18px;}
+.sidenav .fa:before {color: #919eab; padding-right: 10px; }
+.sidenav .fa:before:hover {color: #008084;}
+.sidenav a:hover  {color: #008084;}
+.don-hang { margin-left: 20px; color: #919eab !important; }
+.grid-part { margin: 10px 20px; }
