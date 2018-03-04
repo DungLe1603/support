@@ -29,6 +29,7 @@
       .row.content {height:auto;} 
     }
     header { border-bottom: 1px solid #919eab; }
+
 .text-left { padding: 0 !important; }
 .text-left-part { padding: 10px; }
 .navbar-header {color: #fff;}
@@ -38,7 +39,7 @@
 .nav-search input { width: 60%; display: block; border-radius: 10px; margin: 20px ; padding: 5px 10px; }
 .navbar .fa {color: #000; margin: 20px; position: none}
 .logo-title {color: #008084; font-size: 36px; padding: 0 20px; margin: 20px; display: block;}
-.sidenav { border-left: 1px solid #919eab; }
+/*.sidenav { border-left: 1px solid #919eab; }*/
 .sidenav a { text-align: left; color: #000; font-size: 18px;}
 .sidenav .fa:before {color: #919eab; padding-right: 10px; }
 .sidenav .fa:before:hover {color: #008084;}
@@ -46,6 +47,9 @@
 .don-hang { margin-left: 20px; color: #919eab !important; }
 .grid-part { margin: 10px 20px; }
 
-.content { border-right: 1px solid #919eab; }
+.content { border-left: 1px solid #919eab; margin: 0 -15px; padding: 0; }
 .top-content {background-color: #008084; width: 100%; }
 .top-content a { color: #fff; margin: 0 20px; }
+.top-content a:hover { color: #008084; background-color: #fff; border-top: 1px solid #008084; }
+.navbar { border: none; }
+.main-content { margin: 20px; }
