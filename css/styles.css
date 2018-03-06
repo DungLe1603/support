@@ -29,6 +29,12 @@
       }
       .row.content {height:auto;} 
     }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .top-content a { font-size: 10px; padding: 5px 10px !important; }
+    }
+    @media screen and (min-width: 992px) {
+      .top-content a { font-size: 12px;  padding: 5px 20px !important; }
+    }
 
   header { border-bottom: 1px solid #919eab; padding: 10px; }
   body { font-size: 13px; }
@@ -66,8 +72,7 @@
 .content { border-left: 1px solid #919eab;  padding: 0; }
 .top-content {background-color: #008084; width: 100%; border-top: 1px solid #008084; }
 
-.top-content a { color: #fff; padding: 5px 20px !important; 
-              font-size: 12px;  text-transform: uppercase; }
+.top-content a { color: #fff;  text-transform: uppercase; }
 .top-content a:hover { color: #008084; background-color: #fff; }
 .navbar { border: none; }
 .main-content { margin: 20px; }
